@@ -10,7 +10,7 @@ function Footer() {
       <Container>
         <br />
         <Row className="footer-row">
-          <Col md={12} lg={6}>
+          <Col lg={3} xs={12}>
             <img src={logo} alt="logo" className="footer-logo" />
             <br />
             <p className="textarea">
@@ -21,7 +21,7 @@ function Footer() {
             <br />
             <br />
           </Col>
-          <Col lg={3} className="foot-up-right">
+          <Col lg={3} xs={12} className="foot-up-right">
             <h3>Our Technologies</h3>
             <h6>
               <span>ReactJS</span>
@@ -37,8 +37,7 @@ function Footer() {
             </h6>
           </Col>
           <br />
-          <br />
-          <Col lg={3} className="foot-up-right">
+          <Col lg={3} xs={12} className="foot-up-right">
             <h3>Our Services</h3>
             <h6>
               <span>Social Media Marketing</span>

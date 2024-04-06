@@ -4,13 +4,15 @@ import Row from "react-bootstrap/Row";
 
 import Machine from "../Assets/machineicon.png";
 import Search from "../Assets/searchicon.png";
+import Plus from "../Assets/plus.png";
+import Minus from "../Assets/minus.png";
 import "./Body.css";
 
 function Body() {
   return (
     <div>
       <Container>
-        <Row className="reverse-row">
+        <Row className="row">
           <Col className="image">
             <img src={Machine} alt="1" className="img-fluid" />
           </Col>
@@ -49,30 +51,54 @@ function Body() {
           </Col>
         </Row>
         <br />
+        {/* last row */}
         <Row className="last-row">
           <Col className="text-col">
             <div>
               <h3 className="text-heading-mid">Frequently asked questions</h3>
               <br />
-              <h6 className="first-h6">
-                Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
-                <span className="minus">-</span>
-              </h6>
+
+              <div className="first-text">
+                <h6 className="first-h6">
+                  Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
+                  <span>
+                    {" "}
+                    <img
+                      src={Minus}
+                      alt="minus"
+                      className="img-small-first"
+                    />{" "}
+                  </span>
+                </h6>
+
+                <p className="text-content-mid">
+                  Lorem ipsum dolor sit amet consectetur. Faucibus commodo
+                  suscipit id ipsum. Elementum ultrices nulla faucibus odio est
+                  sed aliquam. Sapien massa morbi risus sagittis tortor integer.
+                </p>
+              </div>
               <br />
-              <p className="text-content-mid">
-                Lorem ipsum dolor sit amet consectetur. Faucibus commodo
-                suscipit id ipsum. Elementum ultrices nulla faucibus odio est
-                sed aliquam. Sapien massa morbi risus sagittis tortor integer.
-              </p>
+
+              <div className="second-text">
+                <h6 className="second-h6">
+                  Lorem ipsum dolor sit amet consectetur. Tortor scelerisque
+                  integer?{" "}
+                  <span>
+                    <img src={Plus} alt="plus" className="img-small" />
+                  </span>
+                </h6>
+              </div>
               <br />
-              <h6 className="second-h6">
-                Lorem ipsum dolor sit amet consectetur. Tortor scelerisque
-                integer? <span>+</span>
-              </h6>
-              <h6 className="second-h6">
-                Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque
-                nunc? <span>+</span>
-              </h6>
+
+              <div className="second-text">
+                <h6 className="second-h6">
+                  Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque
+                  nunc?{" "}
+                  <span>
+                    <img src={Plus} alt="plus" className="img-small" />
+                  </span>
+                </h6>
+              </div>
             </div>
           </Col>
         </Row>
