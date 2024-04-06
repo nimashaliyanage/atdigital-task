@@ -5,7 +5,7 @@ import "../Components/Navbar.css";
 export default function Navbar() {
   return (
     <div>
-      <h1>hi</h1>
+      <h1> hggfdgfdfdfsd</h1>
     </div>
   );
 }
