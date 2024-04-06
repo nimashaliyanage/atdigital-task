@@ -3,6 +3,7 @@ import "./App.css";
 import NavigationBar from "./Components/NavigationBar";
 import Home from "./Components/Home";
 import Body from "./Components/Body";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar />
       <Home />
       <Body />
+      <Footer />
     </div>
   );
 }

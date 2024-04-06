@@ -95,3 +95,34 @@ span {
 .minus {
   margin-left: 200px;
 }
+@media screen and (max-width: 768px) {
+  .last-row {
+    display: block;
+    text-align: left;
+  }
+  .minus {
+    align-items: end;
+  }
+  span {
+    align-items: end;
+    justify-content: end;
+  }
+  .text-col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .reverse-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+}

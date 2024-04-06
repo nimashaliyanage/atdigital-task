@@ -49,3 +49,23 @@ figcaption button {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  figcaption {
+    height: 250px;
+    margin-top: 40px;
+    width: 100%;
+    left: inherit;
+  }
+  .img-fluid {
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 90px;
+  }
+  figcaption h1 {
+    font-size: 34px;
+  }
+  figcaption button {
+    margin-left: 2rem;
+  }
+}
