@@ -2,6 +2,8 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./NavigationBar.css";
 import logo from "../Assets/ATD logo.png";
+import close from "../Assets/close.png";
+import menu from "../Assets/menu.png";
 
 function NavigationBar() {
   return (

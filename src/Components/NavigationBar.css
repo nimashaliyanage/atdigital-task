@@ -12,3 +12,9 @@
   margin-right: 30px;
   color: white !important;
 }
+@media screen and (max-width: 375px) {
+  .nav-item a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+}

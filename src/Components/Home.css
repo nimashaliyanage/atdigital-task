@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+figure {
+  justify-content: center;
+}
+figcaption {
+  position: absolute;
+  max-width: 630px;
+  height: 306px;
+  top: 354px;
+  left: 80px;
+  gap: 20px;
+  padding: 24px, 40px, 32px, 40px;
+  bottom: 2rem;
+  text-align: left;
+  background-image: linear-gradient(to right, #1cbddd, #4dca79);
+}
+figcaption h1 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2%;
+}
+figcaption button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -2%;
+  margin-left: 30px;
+  margin-right: 20px;
+  border: none;
+  padding: 12px, 20px, 12px, 20px;
+  border-radius: 4px;
+  width: 214px;
+  height: 38px;
+  gap: 8px;
+  background-color: #f28d35;
+  color: white;
+  text-align: center;
+}
+.img-fluid {
+  height: 763px;
+  top: -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
